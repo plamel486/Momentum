@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 7rem;
+}
+
+section {
+  height: 28rem;
+}
+
+body {
+  background-image: url("../imgs/main.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+li span {
+  margin-right: 10px;
+  color: antiquewhite;
+  font-size: 1.8rem;
+  font-family: Nanum Pen Script;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+input {
+  padding: 7px;
+  border: none;
+  outline: none;
+}
+
+.inputRound {
+  border-radius: 10px;
+}
+#weather span {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 1em 0 0 0.8em;
+}
+
+#time {
+  color: aliceblue;
+  font-size: 3rem;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: inline;
+}
+
+#timeBox {
+  text-align: right;
+  margin: 2rem 2rem 0 0;
+}
+
+.hide {
+  display: none;
+}
+
+form#workingList {
+  margin-right: 3rem;
+}
+
+div.formOut {
+  height: 50px;
+  text-align: center;
+}
+
+h1#welcome {
+  width: 80%;
+  position: absolute;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  font-family: Nanum Pen Script;
+  font-weight: 800;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.doList {
+  position: absolute;
+  right: 0;
+  margin-right: 2rem;
+}
+
+.writeList {
+  margin-bottom: 10px;
+}
+
+ul#list {
+  line-height: 2rem;
+}
+
+#quote > span.quoteText {
+  color: #2f3542;
+  font-size: 0.8rem;
+  float: right;
+  margin-right: 1rem;
+}
+
+#quote > span.quoteAuthor {
+  display: block;
+  padding: 2px 0;
+  color: #2f3542;
+  font-size: 0.6rem;
+  float: right;
+  margin-right: 1rem;
+}
+
+#loginForm > input:last-child {
+  padding: 5px;
+  background-color: white;
+  color: gray;
+  border-color: gray;
+  border-radius: 10px;
+}

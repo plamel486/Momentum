@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>클론 코딩</title>
+    <link rel="icon" href="imgs/icon/calendar.svg" />
+    <link rel="stylesheet" href="css/base.css" />
+</head>
+<!--드래그 방지, 클릭 방지 -->
+<body contextmenu="return false" ondragstart="return false" onselectstart="return false">
+    <header>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+        <div id="timeBox">
+        <h3 id="time">00:00:00</h3>
+        </div>
+    </header>
+
+    <section>
+        <div class="formOut">
+        <form class="hide" id="loginForm">
+            <input type="text" class="inputRound" required maxlength="12" autofocus placeholder="이름을 입력해 주세요! " />
+            <input type="submit" value="로그인" />
+        </form>
+        <h1 class="hide" id="welcome"></h1>
+        </div>
+        <div class="formOut">
+            <div class="doList">
+                <form id="workingList">
+                <ul></ul>
+                <input type="text" class="writeList inputRound"placeholder="오늘 해야 할 일!" required> 
+                </form>
+                <ul id="list">
+                </ul>
+            </div>
+        </div>
+          
+        <div class="map" id="map" style=" position: relative; width: 450px; height: 300px; background-color: white; left: 30%; top: 34%; transform: translate(-50%,-50%);">
+            지도
+        </div>
+         </div>
+    </section>
+
+    <footer>
+        
+            <div id="quote">
+                <span></span>
+                <span></span>
+            </div>
+       
+    </footer>
+
+    <script src="js/time.js"></script>
+    <script src="js/welcome.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
+   
+    <script src="js/weather.js"></script>
+    
+
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXh9BCkPz4h1DT9peyqBBe2LjjKtWS_sg&callback=initMap">
+    </script>
+    <script src="js/map.js"></script>  
+</body>
+</html>
