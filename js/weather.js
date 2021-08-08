@@ -3,7 +3,7 @@ const weather = document.querySelector("#weather span:first-child");
 const city = document.querySelector("#weather span:last-child");
 const API_KEY="ed083ba697faee2d6c895628f3294794";
 
-
+//위도와 경도를 사용에게 받아와서 날씨 찾기
 
 function ok (location){
     const lat=location.coords.latitude;
