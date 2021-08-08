@@ -15,7 +15,6 @@ function ok (location){
         city.innerText = data.name;
         const currentTemp=Math.round(data.main.temp*100)/100;
         weather.innerText = `${data.weather[0].main} / ${currentTemp}℃`;
-        console.log(data.name,data.weather[0].main)
     });
     
 }
