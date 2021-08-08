@@ -14,9 +14,6 @@ section {
 }
 
 body {
-  /*
-  background-image: url("../imgs/main.jpg");
-  */
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
