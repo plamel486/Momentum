@@ -20,7 +20,7 @@ function ok (location){
 }
 
 function fail(){
-    alert("fail....");
+    alert("날씨 정보를 가져오는데 실패했습니다.");
 }
 
 
